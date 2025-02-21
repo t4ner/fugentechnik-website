@@ -1,0 +1,19 @@
+.sliderContainer :global(.slick-dots li button:before) {
+  color: #008fc7 !important;
+  opacity: 0.5;
+  font-size: 6px !important;
+}
+
+.sliderContainer :global(.slick-dots li.slick-active button:before) {
+  color: #008fc7 !important;
+  opacity: 1;
+  font-size: 8px !important;
+}
+
+.sliderContainer :global(.slick-dots) {
+  bottom: -40px;
+}
+
+.sliderContainer :global(.slick-dots li) {
+  margin: 0 8px;
+}
