@@ -12,22 +12,32 @@ const Contact = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
+    emailjs.init("Wcb1JUXx4tpuKsDp3");
   }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
 
+    toast.info("E-Mail wird gesendet...");
+
     emailjs
-      .sendForm("service_ukiun8l", "template_z809tfd", form.current, {
-        publicKey: "PTCU4WX568fR4ym8L",
-      })
+      .sendForm(
+        "default_service",
+        "template_oceziug",
+        form.current,
+        "Wcb1JUXx4tpuKsDp3"
+      )
       .then(
-        () => {
+        (result) => {
+          console.log("SUCCESS!", result.text);
           form.current.reset();
           toast.success("E-Mail erfolgreich gesendet!");
         },
         (error) => {
-          toast.error("Beim Senden der E-Mail ist ein Fehler aufgetreten!");
+          console.error("FAILED...", error.text);
+          toast.error(
+            "Beim Senden der E-Mail ist ein Fehler aufgetreten: " + error.text
+          );
         }
       );
   };

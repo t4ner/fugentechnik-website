@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 // Statik değerler ve meta bilgiler
 const COMPANY_INFO = {
-  name: "Gundg Fugentechnik",
+  name: "G&G Fugentechnik GmbH",
   phone: "+49 (0)7253 5091 338",
   email: "info@gundg-fugentechnik.de",
   location: "https://maps.app.goo.gl/dd2NNC7Wit4ag6248",
@@ -195,8 +195,17 @@ const BottomSection = memo(() => {
         </nav>
       </div>
 
-      <div className="text-[#06234B]/60 text-sm text-center border-t border-[#06234B]/10 pt-8">
-        © {new Date().getFullYear()} {COMPANY_INFO.name}
+      <div className="text-[#06234B]/60 text-sm text-center border-t border-[#06234B]/10 py-4">
+        © {new Date().getFullYear()} {COMPANY_INFO.name} | Alle Rechte
+        vorbehalten | Entwickelt von{" "}
+        <a
+          href="https://macaree.de"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#02C5DF] hover:text-[#008FC7] cursor-pointer hover:underline transition-all duration-300"
+        >
+          Macaree
+        </a>
       </div>
     </div>
   );
