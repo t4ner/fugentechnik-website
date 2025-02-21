@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gundg-fugentechnik.de/sitemap.xml 
