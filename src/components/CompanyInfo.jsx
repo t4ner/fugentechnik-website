@@ -137,7 +137,7 @@ const CompanyInfo = () => {
                     alt: "Professionelle Werkzeuge für Fugentechnik",
                   },
                   {
-                    src: "/information/info4.webp",
+                    src: "/information/info3.webp",
                     alt: "Nachhaltige Baupraktiken bei G&G Fugentechnik",
                   },
                 ].map((img, index) => (

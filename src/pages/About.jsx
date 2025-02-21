@@ -9,7 +9,7 @@ const About = () => {
   const heroContent = {
     title: "Über die \nG&G Fugentechnik GmbH",
     subtitle: "Erfahrung und Kompetenz seit Jahren",
-    backgroundImage: "/information/info4.png",
+    backgroundImage: "/hero/uber-uns-hero.webp",
     imageAlt: "G&G Fugentechnik Team und Unternehmen",
   };
 
