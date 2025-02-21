@@ -195,9 +195,9 @@ const BottomSection = memo(() => {
         </nav>
       </div>
 
-      <div className="text-[#06234B]/60 text-sm text-center border-t border-[#06234B]/10 py-4">
+      <div className="text-[#06234B]/60 text-xs text-center border-t border-[#06234B]/10 py-4">
         © {new Date().getFullYear()} {COMPANY_INFO.name} | Alle Rechte
-        vorbehalten | Entwickelt von{" "}
+        vorbehalten | Design und Entwicklung {" "}
         <a
           href="https://macaree.de"
           target="_blank"
