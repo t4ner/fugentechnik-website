@@ -10,7 +10,6 @@ import {
 import { motion } from "framer-motion";
 
 const CompanyInfo = () => {
-  // SEO ve erişilebilirlik için yapılandırılmış servis verileri
   const services = [
     {
       icon: <FaTools className="w-6 h-6 md:h-8 md:w-8" aria-hidden="true" />,
@@ -134,11 +133,11 @@ const CompanyInfo = () => {
               <div className="grid grid-cols-2 gap-4">
                 {[
                   {
-                    src: "/information/info3.webp",
+                    src: "/information/info5.webp",
                     alt: "Professionelle Werkzeuge für Fugentechnik",
                   },
                   {
-                    src: "/information/info2.webp",
+                    src: "/information/info4.webp",
                     alt: "Nachhaltige Baupraktiken bei G&G Fugentechnik",
                   },
                 ].map((img, index) => (

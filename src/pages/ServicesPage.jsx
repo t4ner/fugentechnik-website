@@ -8,7 +8,7 @@ const ServicesPage = () => {
   const heroContent = {
     title: "Leistungen der \nG&G Fugentechnik GmbH",
     subtitle: "Professionelle Lösungen für Ihre Anforderungen",
-    backgroundImage: "/hero/leistungen-hero.webp",
+    backgroundImage: "/information/info6.webp",
     imageAlt: "G&G Fugentechnik Dienstleistungen Übersicht",
   };
 
