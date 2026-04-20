@@ -78,7 +78,7 @@ const Contact = () => {
             >
               <div className="w-full lg:w-1/2 h-[300px] sm:h-[400px] lg:h-auto">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2606.479675928826!2d8.626844499999999!3d49.2104295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797bd87b327fc9b%3A0x88814e4334e9b77c!2sG%C3%B6k%20%26%20G%C3%BCney%20Fugentechnik%20GmbH!5e0!3m2!1sen!2str!4v1738857777383!5m2!1sen!2str"
+                  src="https://www.google.com/maps?q=Holzm%C3%BCllerrichtweg%202%2C%2076669%20Bad%20Sch%C3%B6nborn&z=16&output=embed"
                   className="w-full h-full"
                   style={{ border: 0 }}
                   loading="lazy"

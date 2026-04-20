@@ -34,8 +34,8 @@ const Datens = () => {
             <h3 className="text-base font-semibold md:text-xl">
               G&G Fugentechnik Gesellschaft mit beschränkter Haftung
             </h3>
-            <p className="text-sm md:text-base">Südendstraße 7/1</p>
-            <p className="text-sm md:text-base">76709 Kronau</p>
+            <p className="text-sm md:text-base">Holzmüllerrichtweg 2</p>
+            <p className="text-sm md:text-base">76669 Bad Schönborn</p>
             <p className="text-sm md:text-base">Deutschland</p>
             <div className="flex flex-col gap-1 mt-2">
               <p className="text-sm md:text-base">

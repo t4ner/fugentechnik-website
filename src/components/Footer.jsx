@@ -13,7 +13,8 @@ const COMPANY_INFO = {
   name: "G&G Fugentechnik GmbH",
   phone: "+49 (0)7253 5091 338",
   email: "info@gundg-fugentechnik.de",
-  location: "https://maps.app.goo.gl/dd2NNC7Wit4ag6248",
+  location:
+    "https://www.google.com/maps?q=Holzm%C3%BCllerrichtweg%202%2C%2076669%20Bad%20Sch%C3%B6nborn",
 };
 
 const CONTACT_ITEMS = [

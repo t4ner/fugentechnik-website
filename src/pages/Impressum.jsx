@@ -18,8 +18,8 @@ const Impressum = () => {
           <p className="text-sm md:text-base">
             G&G Fugentechnik Gesellschaft mit beschränkter Haftung
           </p>
-          <p className="text-sm md:text-base">Südendstraße 7/1</p>
-          <p className="text-sm md:text-base">76709 Kronau</p>
+          <p className="text-sm md:text-base">Holzmüllerrichtweg 2</p>
+          <p className="text-sm md:text-base">76669 Bad Schönborn</p>
         </section>
 
         <section className="mb-4">
@@ -85,8 +85,8 @@ const Impressum = () => {
             Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV:
           </h3>
           <p className="text-sm md:text-base">Mehmet Gök</p>
-          <p className="text-sm md:text-base">Südendstraße 7/1</p>
-          <p className="text-sm md:text-base">76709 Kronau</p>
+          <p className="text-sm md:text-base">Holzmüllerrichtweg 2</p>
+          <p className="text-sm md:text-base">76669 Bad Schönborn</p>
         </section>
 
         <section className="mb-4">

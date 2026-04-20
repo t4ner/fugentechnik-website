@@ -11,12 +11,12 @@ const ContactInfo = () => {
         <>
           G&G Fugentechnik GmbH
           <br />
-          Südendstraße 7/1,
+          Holzmüllerrichtweg 2,
           <br />
-          76709 Kronau
+          76669 Bad Schönborn
         </>
       ),
-      link: "https://maps.app.goo.gl/GsX4i2fXnqiB54ys5",
+      link: "https://www.google.com/maps?q=Holzm%C3%BCllerrichtweg%202%2C%2076669%20Bad%20Sch%C3%B6nborn",
       color: "from-[#7BE4F0] to-[#02C5DF]",
     },
     {
