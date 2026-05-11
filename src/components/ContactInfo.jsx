@@ -61,16 +61,16 @@ const ContactInfo = () => {
                       md:hover:shadow-2xl h-[190px] md:h-[320px]"
       >
         <div
-          className={`bg-gradient-to-r ${item.color} p-4 sm:p-6 md:p-8 
+          className={`bg-linear-to-r ${item.color} p-4 sm:p-6 md:p-8 
                      text-white h-full flex flex-col justify-between`}
         >
-          <div className="flex items-center justify-between">
-            <div className="p-2 rounded-lg sm:p-3 md:p-4 bg-white/20 backdrop-blur-sm">
+          <div className="flex justify-between items-center">
+            <div className="p-2 rounded-lg backdrop-blur-sm sm:p-3 md:p-4 bg-white/20">
               {React.cloneElement(item.icon, {
                 className: "w-4 h-4 sm:w-5 sm:h-5 md:w-8 md:h-8",
               })}
             </div>
-            <span className="text-2xl font-bold transition-opacity opacity-50 sm:text-3xl md:text-4xl group-hover:opacity-100">
+            <span className="text-2xl font-bold opacity-50 transition-opacity sm:text-3xl md:text-4xl group-hover:opacity-100">
               {String(index + 1).padStart(2, "0")}
             </span>
           </div>
@@ -79,7 +79,7 @@ const ContactInfo = () => {
               {item.title}
             </h3>
             {item.links ? (
-              <div className="text-sm leading-relaxed md:text-lg opacity-90">
+              <div className="text-sm leading-relaxed opacity-90 md:text-lg">
                 <a href={item.links.phone} className="block hover:underline">
                   Tel: +49 (0)7253 5091 338
                 </a>
@@ -88,7 +88,7 @@ const ContactInfo = () => {
                 </a>
               </div>
             ) : (
-              <p className="text-sm leading-relaxed md:text-lg opacity-90">
+              <p className="text-sm leading-relaxed opacity-90 md:text-lg">
                 {item.value}
               </p>
             )}

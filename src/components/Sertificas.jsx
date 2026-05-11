@@ -103,15 +103,19 @@ const Sertificas = () => {
     },
     {
       id: 10,
-      image: "/sertifica/sertifica9.webp",
+      image: "/sertifica/sertifica10.webp",
       alt: "Sertifika 10",
     },
-  
+    {
+      id: 11,
+      image: "/sertifica/sertifica11.webp",
+      alt: "Sertifika 11",
+    },
   ];
 
   return (
     <div className="container pb-24 mx-auto -mt-10 md:pt-10">
-      <h1 className="text-2xl md:text-5xl font-bold p-6 md:mb-10 bg-gradient-to-r from-[#02C5DF] to-[#008FC7] bg-clip-text text-transparent text-center">
+      <h1 className="text-2xl md:text-5xl font-bold p-6 md:mb-10 bg-linear-to-r from-[#02C5DF] to-[#008FC7] bg-clip-text text-transparent text-center">
         Unsere Zertifikate
       </h1>
       <div className={`w-full ${styles.sliderContainer}`}>
